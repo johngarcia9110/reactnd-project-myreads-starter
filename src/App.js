@@ -21,14 +21,24 @@ class BooksApp extends React.Component {
   };
 
   updateBookShelf = (bookID, book) => {
+
       let booksCopy = this.state.myBooks;
       let index = booksCopy.findIndex( (y) => y.id === bookID );
-      booksCopy[index] = book;
+
+      if(index === -1){ //book is not on any shelf
+          booksCopy.push(book);
+      }else{
+          booksCopy[index] = book;
+      }
+
       this.setState({
           myBooks : booksCopy
       });
-    BooksAPI.update(book, book.shelf);
+
+      BooksAPI.update(book, book.shelf);
+
   };
+
 
   render() {
     return (

@@ -2,14 +2,13 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class Book extends Component{
-    static PropTypes = {
+    static propTypes = {
         bookInfo : PropTypes.object.isRequired
     };
 
     updateShelf = (e) => {
         this.props.bookInfo.shelf = e.target.value;
-        this.props.onChangeShelf(this.props.bookInfo.id,this.props.bookInfo)
-        console.log(this.props.bookInfo.shelf);
+        this.props.onChangeShelf(this.props.bookInfo.id,this.props.bookInfo);
     };
 
     render(){

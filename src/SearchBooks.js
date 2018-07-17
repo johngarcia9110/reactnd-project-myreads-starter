@@ -20,14 +20,20 @@ class SearchBooks extends Component{
         this.setState({ query: query.trim(), results: [] });
         if(query.length > 3){
             BooksAPI.search(query).then((results)=>{
+
+                if(results.error){
+                    return;
+                }
+
                 this.setState({
                     results : results.map((book) => {
                         // check if any of the books in our search results are also currently on any of our shelves
                         let bookInMyBooks = this.props.myBooks.find((myBook) => ( myBook.id === book.id ) );
                         book.shelf = bookInMyBooks ? bookInMyBooks.shelf : 'none';
                         return book;
-                    })
+                    }),
                 })
+
             })
         }
     };
