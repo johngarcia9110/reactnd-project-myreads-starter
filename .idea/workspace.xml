@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1a40e160-9684-45e5-88b4-9910a0c9eaad" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bookshelf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bookshelf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListBooks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchBooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchBooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,14 +38,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchBooks.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SearchBooks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SearchBooks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="1364">
               <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="110">
+                <caret line="5" column="43" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="43" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -88,9 +96,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>consol</find>
-      <find>conso</find>
       <find>cons</find>
       <find>console</find>
+      <find>conso</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/Bookshelf.js" />
         <option value="$PROJECT_DIR$/src/Book.js" />
         <option value="$PROJECT_DIR$/src/SearchBooks.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -141,11 +150,6 @@
             <path>
               <item name="reactnd-project-myreads-starter" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactnd-project-myreads-starter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reactnd-project-myreads-starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reactnd-project-myreads-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,16 +188,15 @@
       <option name="presentableId" value="Default" />
       <updated>1531586630981</updated>
       <workItem from="1531586632198" duration="9685000" />
-      <workItem from="1531671349556" duration="12586000" />
+      <workItem from="1531671349556" duration="13478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22271000" />
+    <option name="totallyTimeSpent" value="23163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -204,7 +207,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33948717" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14468865" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32967034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -280,14 +283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BooksAPI.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -350,11 +345,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SearchBooks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="1364">
           <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="110">
+            <caret line="5" column="43" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
